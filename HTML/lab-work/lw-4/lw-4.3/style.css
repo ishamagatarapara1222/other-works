@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#eef5fb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    width:380px;
+    background:white;
+    border:2px dashed green;
+    border-radius:8px;
+    padding:25px;
+    text-align:center;
+}
+
+h1{
+    color:#2e7d32;
+    margin-bottom:15px;
+    font-size:26px;
+}
+
+.welcome{
+    margin-bottom:15px;
+    font-size:16px;
+}
+
+p{
+    margin:10px 0;
+    color:#333;
+}
+
+.note{
+    color:gray;
+    font-size:14px;
+}
+
+button{
+    margin-top:20px;
+    background:#4caf50;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+button:hover{
+    background:#388e3c;
+}
